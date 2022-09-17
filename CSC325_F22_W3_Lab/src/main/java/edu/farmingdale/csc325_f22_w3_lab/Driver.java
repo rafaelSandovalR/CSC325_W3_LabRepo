@@ -10,5 +10,12 @@ package edu.farmingdale.csc325_f22_w3_lab;
  * @author Rsand
  */
 public class Driver {
-    //Added comments
+    
+    public static void main(String[] args) {
+        Student std = new Student();
+        std.setfName("Rafael");
+        System.out.println("Rafael Sandoval");
+    }
+    
+
 }
